@@ -1,0 +1,89 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Epilogue:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url("fonts.css");
+@import url("reset.css");
+
+body {
+	font-family: "Epilogue", sans-serif;
+	color: #FFF;
+	font-size: 16px;
+	background-color: #28293E;
+}
+
+[class*="__container"] {
+	max-width: 1140px; 
+   /*+30 padding*/
+	padding-inline: 15px;
+	margin: 0 auto;
+}
+.portfolio__list {
+}
+.list__wrapper {
+	 max-width: 574px;  }
+
+	
+
+.list__items {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	justify-self: center;
+}
+/* ================================================ */
+ .cards__wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr; 
+	gap: 30px;
+	/* align-items: center;
+	justify-content: space-around; */
+
+ }
+ .cards__item--big{width: 1140x;
+		grid-column: span 2;
+
+
+
+ } 
+.list__item {
+}
+
+.portfolio__cards {
+}
+.cards__wrapper {
+}
+.cards__item {
+	position: relative;
+
+
+
+  border-radius: 6px;
+  align-items: end;
+ 
+}
+.cards__content {
+	position: relative;
+	z-index: 2;
+	display: inline-block;
+}
+.cards__title {
+}
+.footer {
+}
+
+a {
+	width: fit-content;
+	padding: 5px 15px;
+	margin-bottom: 40px;
+	border-radius: 19px;
+	line-height: 2; /* 200% */
+	color: #391400;
+	background-color: #fff;
+	
+  }
+  .cards__title {
+	transform: translateY(200px) ;
+	font-size: 40px;
+	font-weight: 800;
+	line-height: 1.2; /* 120% */
+  }
+  
